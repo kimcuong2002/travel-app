@@ -1,0 +1,19 @@
+.header-navbar {
+    display: none;
+    white-space: nowrap;
+    
+}
+
+@media (min-width: 768px) {
+    .header-navbar {
+        display: none;
+        align-items: center;
+
+    }
+}
+
+@media (min-width: 1024px) {
+    .header-navbar {
+        display: flex;
+    }
+}

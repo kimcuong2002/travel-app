@@ -1,0 +1,18 @@
+.footer-options-name {
+  font-size: 18px;
+  color: var(--bold-gray);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.footer-item__option-link {
+  text-decoration: none;
+  color: var(--white-gray-9a);
+  font-size: 18px;
+  letter-spacing: 1px;
+  crusor: pointer;
+}
+@media (min-width: 768px) {
+  .footer-options-box {
+    margin: 0 15px 15px 15px;
+  }
+}

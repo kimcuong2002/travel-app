@@ -1,0 +1,11 @@
+.promotions{
+    font-size: 14px;
+    color: var(--gray);
+    text-align: center;
+}
+.our-packages{
+    font-size: 36px;
+    padding: 24px 0px 0px;
+    text-align: center;
+    color: var(--blur-black)
+}

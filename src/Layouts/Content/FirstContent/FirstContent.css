@@ -1,0 +1,149 @@
+.secondtitle {
+  color: var(--bold-gray) !important;
+  font-size: 36px !important;
+  text-decoration-color: var(--green-color) !important;
+  padding: 24.12px;
+  text-transform: uppercase !important;
+}
+.firsttitle {
+  font-size: 14px;
+  color: var(--white-gray-9a);
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 12px 12px;
+}
+.box-firstproduct {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px !important;
+  box-sizing: border-box;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  position: relative;
+}
+.icon-firstproduct {
+  width: 35px;
+  height: 35px;
+  margin: 30px;
+}
+.box-firstproduct-des {
+  margin: 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.box-firstproduct-des .name-local {
+  font-size: 20px;
+  padding: 13px 0px;
+}
+.box-firstproduct-des .packages-local {
+  font-size: 13px;
+}
+.box-firstproduct-hover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: var(--light-blue);
+  color: var(--white);
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.box-firstproduct:hover .box-firstproduct-hover {
+  visibility: visible;
+}
+
+.btn-view {
+  color: var(--light-blue);
+  background-color: var(--white);
+}
+
+.local-hover {
+  margin: 20px;
+  text-transform: lowercase;
+  font-size: 1.4rem;
+}
+
+.local-hover::first-letter {
+  text-transform: uppercase;
+}
+
+.content-firstbanner {
+  background-image: url(../../../assets/sanfrancisco.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-text {
+  font-size: 20px;
+}
+.banner-button {
+  font-size: 12px;
+  padding: 15px 20px;
+  white-space: nowrap;
+}
+
+@media (min-width: 568px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .box-firstproduct {
+    width: 250px;
+    height: 250px !important;
+    background-size: cover;
+    margin: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .box-firstproduct {
+    width: 250px;
+    height: 250px !important;
+    background-size: cover;
+    margin: 15px;
+  }
+  .banner-text {
+    font-size: 50px;
+  }
+  .banner-button {
+    font-size: 12px;
+    padding: 15px 35px;
+    white-space: nowrap;
+  }
+  .content-firstbanner {
+    padding: 0px 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .box-firstproduct {
+    width: 300px;
+    height: 300px !important;
+  }
+}

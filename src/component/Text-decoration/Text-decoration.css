@@ -1,0 +1,44 @@
+.text {
+  font-size: 50px;
+  color: var(--white);
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text p {
+  margin: 0px 0px;
+}
+
+.text p::first-letter {
+  text-transform: uppercase;
+  margin-left: 3px;
+}
+
+.text p:first-child {
+  margin-right: 8px;
+}
+
+.text p:last-child {
+  position: relative;
+  z-index: 1;
+  width: fit-content;
+}
+.text p:last-child::after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background-color: var(--violet);
+  top: 85%;
+  left: 0;
+  z-index: -1;
+}
+
+@media (min-width: 1024px) {
+  .text {
+    flex-direction: row;
+  }
+}

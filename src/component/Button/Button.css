@@ -1,0 +1,10 @@
+.Button{
+    crusor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--white);
+    border-radius: 30px;
+    padding: 12px 16px;
+    background-color: var(--violet);
+    crusor: pointer;
+}

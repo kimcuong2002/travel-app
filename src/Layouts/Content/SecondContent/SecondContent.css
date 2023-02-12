@@ -1,0 +1,225 @@
+.second-content-container {
+  margin: 10px 10px;
+}
+.banner-about {
+  height: 100px;
+  width: 100px;
+  background-image: url(../../../assets/beach.png);
+}
+.descriptions-about {
+  margin: 20px 0px;
+}
+.descriptions-about .north-america {
+  font-size: 14px;
+  color: var(--white-gray-9a);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.the-best-beach {
+  font-size: 36px;
+  padding: 24.12px 0;
+  color: var(--blur-black);
+  display: flex;
+  flex-direction: row;
+}
+.sub-title {
+  font-size: 14px;
+  color: var(--gray);
+  letter-spacing: 1px;
+  margin: 14px 0px;
+}
+.the-best-beach {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.sub-price {
+  display: flex;
+  padding: 20px 0px;
+  align-items: center;
+  color: var(--blur-black);
+  font-size: 30px;
+  margin-right: 3px;
+}
+.sub-price1 {
+  color: #dadada;
+  text-decoration: line-through;
+}
+.sub-price3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--blur-black);
+  margin-left: 5px;
+}
+.btn-booknow-primary {
+  display: inline;
+  background-color: var(--green-color1);
+  padding: 5px 20px;
+  font-size: 14px;
+}
+.box-banner {
+  position: relative;
+}
+.banner-about {
+  width: 100%;
+  height: 100%;
+}
+.count-down {
+  position: absolute;
+  top: 100%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding-top: 20px;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  height: 90px;
+  background-color: var(--light-blue);
+  color: var(--white);
+}
+.time .timer {
+  font-size: 35px;
+  margin-bottom: 8px;
+}
+.time .unit {
+  font-size: 13px;
+}
+.sign {
+  display: none;
+}
+.sub2 {
+  margin: 0px 34.4px;
+  padding: 230px 12px 30px;
+}
+.travel-by {
+  display: flex;
+}
+.travel-logo {
+  width: 50px;
+  height: 50px;
+}
+.travel-des-by {
+  padding: 0 0 0 40px;
+  color: var(--light-blue);
+  padding-bottom: 10px;
+}
+.travel-transport {
+  font-size: 24px;
+  padding-bottom: 18px;
+  font-weight: bold;
+  color: var(--blur-black);
+}
+.travel-transport-des {
+  font-size: 18px;
+  padding: 14px 0px;
+  color: var(--white-gray-9a);
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+.sub3 {
+  text-align: center;
+}
+.banenr1 {
+  width: 100%;
+  height: 100%;
+}
+.discover-cities {
+  position: relative;
+}
+.sub3-box1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner2 {
+  width: 100%;
+  height: 100%;
+}
+.discover-nature {
+  position: relative;
+}
+.sub3-box2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sub1-title1 {
+  font-size: 14px;
+  color: var(--white);
+  text-transform: uppercase;
+}
+.sub1-title2 {
+  font-size: 36px;
+  color: var(--white);
+  font-weight: bold;
+}
+.details {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: red;
+  margin-top: 30px;
+  padding: 15px 35px;
+  display: inline-block;
+  background-color: var(--white)
+}
+@media (min-width: 768px) {
+  .sub1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+  }
+  .descriptions-about {
+    width: 40%;
+  }
+  .box-banner {
+    width: 549px;
+    height: 410px;
+  }
+  .banner-about {
+    width: 100%;
+    height: 410px;
+  }
+  .count-down {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 90%;
+    height: 116px;
+    padding: 0px;
+  }
+  .sub2 {
+    display: flex;
+    padding: 70px 12px;
+  }
+  .sub3 {
+    display: flex;
+  }
+  .time{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .sign{
+    display: block;
+    margin-left: 30px;
+    font-size: 40px;
+    color: #000;
+    opacity: 0.05;
+  }
+}
+@media (min-width: 1024px) {
+  .sub1 {
+    padding: 0px 100px;
+  }
+  .box-banner {
+    width: 675px;
+  }
+}

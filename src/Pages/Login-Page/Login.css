@@ -1,0 +1,53 @@
+.login-page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-page .login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 10px rgb(0 0 0 / 50%);
+    padding: 20px;
+    border-radius: 10px;
+}
+.login-form label {
+    font-size: 20px;
+}
+.login-form h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.login-form input{
+    border-radius: 16px;
+} 
+.text-xs{
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+}
+label, name{
+    display: block;
+}
+input, button{
+    display: block;
+    padding: 0.8rem;
+    outline: none;
+    margin-top: 1rem;
+    margin-bottom: 1.1rem;
+    border: 1px solid lightgrey;
+    width: 100%;
+}
+.error-container {
+    border: 1px dashed lightgray;
+    padding: 1rem;
+    width: 100%;
+  }
+@media (min-width: 768px) {
+    
+}
+@media (min-width: 992px) {
+
+}
